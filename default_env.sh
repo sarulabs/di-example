@@ -1,0 +1,2 @@
+export SERVER_PORT=8080
+export MONGO_URL=127.0.0.1:27017
