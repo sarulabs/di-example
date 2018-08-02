@@ -49,3 +49,9 @@ It is also possible to run this application with docker compose:
 ```sh
 docker-compose -f docker/compose.yml up --build
 ```
+
+Or if you only want to run mongo in docker and not the rest api:
+
+```sh
+docker-compose -f docker/mongo.yml up
+```
